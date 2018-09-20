@@ -10,6 +10,7 @@ int main() {
         ary1[i] = rand() % 100;
         printf("ary1[%d]: %d\n", i, ary1[i]);
     }
+    ary1[10] = 0;
     int ary2[10];
     int * pointy1 = ary1 + 9;
     int * pointy2 = ary2;
